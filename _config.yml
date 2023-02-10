@@ -1,6 +1,6 @@
 # Setup
 title: Destiny-LB
-description: Personal Website
+description: Personal Website for Fairy Tales
 url: https://destiny-lb.github.io
 avatar: /avatar.jpeg
 paginate: 5
@@ -35,7 +35,7 @@ logo: logo.png
 social:
   name: Liu Bin
   links:
-    - https://twitter.com/vszhub
+    - https://twitter.com/Destiny_LiuBin
     - https://github.com/Destiny-LB
 google_site_verification: xxxxx
 lang: en
@@ -54,6 +54,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Liu Bin
+  name: Destiny-LB
   url: https://github.com/Destiny-LB
   email: lb13487247754@gmail.com
