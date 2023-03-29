@@ -5,10 +5,6 @@ platforms:
  - type: QQ
     icon: "fab fa-qq"
     link: "http://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
- 
- - type: Weixin
-    icon: "fab fa-weixin"
-    link: "https://zixuephp.net/inc/qrcode_img.php?url=URL"
 
   - type: Qzone
     icon: "fab fa-qzone"
