@@ -31,8 +31,11 @@ url: "https://destiny-lb.github.io"
 github:
   username: Destiny-LB # change to your github username
 
+weibo:
+  username: Destiny-LB # change to your weibo username
+
 twitter:
-  username: twitter_username # change to your twitter username
+  username: Destiny_LiuBin # change to your twitter username
 
 social:
   # Change to your full name.
@@ -41,11 +44,8 @@ social:
   email: example@domain.com # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/username # change to your twitter homepage
-    - https://github.com/username # change to your github homepage
-    # Uncomment below to add more social links
-    # - https://www.facebook.com/username
-    # - https://www.linkedin.com/in/username
+    - https://twitter.com/Destiny_LiuBin # change to your twitter homepage
+    - https://github.com/Destiny-LB # change to your github homepage
 
 google_site_verification: # fill in to your verification string
 
