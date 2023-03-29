@@ -28,11 +28,11 @@ description: >- # used by seo meta and the atom feed
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://destiny-lb.github.io"
 
-github:
-  username: Destiny-LB # change to your github username
-
 weibo:
   username: Destiny-LB # change to your weibo username
+
+github:
+  username: Destiny-LB # change to your github username
 
 twitter:
   username: Destiny_LiuBin # change to your twitter username
