@@ -1,9 +1,9 @@
 #  The contact options.
 #  Icons from <https://fontawesome.com/>
 
-- type: weixin
-  icon: "fab fa-weixin"
-  url: https://space.bilibili.com/450784246
+- type: tiktok
+  icon: "fab fa-tiktok"
+  url: https://www.douyin.com/user/MS4wLjABAAAAxygBxiONycoqCmsOc2tCuhZ3bh-Pa0ic0Upy1ptlmfQ?vid=7215076032532008226
 
 - type: weibo
   icon: "fab fa-weibo"
