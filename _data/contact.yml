@@ -1,10 +1,6 @@
 #  The contact options.
 #  Icons from <https://fontawesome.com/>
 
-- type: tiktok
-  icon: "fab fa-tiktok"
-  url: https://www.douyin.com/user/MS4wLjABAAAAxygBxiONycoqCmsOc2tCuhZ3bh-Pa0ic0Upy1ptlmfQ?vid=7215076032532008226
-
 - type: weibo
   icon: "fab fa-weibo"
   url: https://weibo.com/n/Destiny-LB
@@ -12,6 +8,10 @@
 - type: bilibili
   icon: "fab fa-bilibili"
   url: https://space.bilibili.com/450784246
+
+- type: tiktok
+  icon: "fab fa-tiktok"
+  url: https://v.douyin.com/ABStMdk
 
 - type: github
   icon: "fab fa-github"
