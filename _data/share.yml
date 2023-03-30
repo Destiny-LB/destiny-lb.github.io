@@ -2,9 +2,17 @@
 #  Icons from <https://fontawesome.com/>
 
 platforms:
+  - type: QQ
+    icon: "fab fa-qq"
+    link: "https://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?title=TITLE&url=URL"
+
   - type: Weibo
     icon: "fab fa-weibo"
     link: "http://service.weibo.com/share/share.php?title=TITLE&url=URL"
+
+  - type: Bilibili
+    icon: "fab fa-bilibili"
+    link: "'http://zixuephp.net/inc/qrcode_img.php?title=TITLE&url=URL"
 
   # - type: Twitter
   #   icon: "fab fa-twitter"
