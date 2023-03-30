@@ -144,12 +144,9 @@ h1 + .post-meta {
         }
 
         &.fa-qq {
-          @include btn-sharing-color(rgb(20, 20, 20));
-        }
-
-        &.fa-bilibili {
           @include btn-sharing-color(rgb(0, 120, 220));
         }
+
       }
     } /* .share-icons */
 
