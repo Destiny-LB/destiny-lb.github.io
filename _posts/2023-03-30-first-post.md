@@ -12,4 +12,4 @@ Hello World!
 
 ![Hello World](/assets/img/posts/HelloWorld.jpg){: .w-50 .normal }
 
-{% include embed/bilibili.html aid='2834521' cid='4427591' %}
+{% include embed/bilibili.html id='BV1ds411m7Ns' %}
