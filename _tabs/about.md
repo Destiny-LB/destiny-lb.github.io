@@ -11,7 +11,7 @@ This is a Personal Website for [**Destiny-LB**]({{ site.url }}).
 
 For more information about me, please visit the following website:
 
-<i class="fab fa-weibo"></i> 微博： <a href="https://weibo.com/n/Destiny-LB" target="_blank" rel="noopener">https://weibo.com/destiny-lb
+微博： <a href="https://weibo.com/n/Destiny-LB" target="_blank" rel="noopener">https://weibo.com/destiny-lb
 
 <i class="fab fa-bilibili"></i> Bilibili： <a href="https://b23.tv/8tJjr10" target="_blank" rel="noopener">https://space.bilibili.com/destiny-lb
 
