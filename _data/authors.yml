@@ -5,14 +5,6 @@
 #   twitter: {twitter_of_author}
 #   url: {homepage_of_author}
 # -------------------------------------
-cotes:
+LB:
   name: Destiny-LB
   url: https://github.com/Destiny-LB
-
-cotes:
-  name: Cotes Chung
-  url: https://github.com/cotes2020
-
-sille_bille:
-  name: Dinesh Prasanth Moluguwan Krishnamoorthy
-  url: https://github.com/SilleBille
