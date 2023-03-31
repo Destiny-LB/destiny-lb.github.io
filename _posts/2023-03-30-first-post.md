@@ -12,4 +12,4 @@ render_with_liquid: false
 
 Hello World!
 
-![Hello World](/assets/img/posts/HelloWorld.jpg)
+![Hello World](/assets/img/posts/HelloWorld.jpg){: width="900" height="500" }
