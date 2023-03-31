@@ -139,14 +139,13 @@ h1 + .post-meta {
           @include btn-sharing-color(rgb(0, 119, 181));
         }
 
-        &.fa-weibo {
-          @include btn-sharing-color(rgb(229, 20, 43));
-        }
-
         &.fa-qq {
           @include btn-sharing-color(rgb(0, 120, 220));
         }
 
+        &.fa-weibo {
+          @include btn-sharing-color(rgb(229, 20, 43));
+        }
       }
     } /* .share-icons */
 
