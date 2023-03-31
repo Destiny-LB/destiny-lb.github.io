@@ -19,7 +19,7 @@ For more information about me, please visit the following website:
 
 ​		<i class="fab fa-github"></i> Github： <a href="https://github.com/Destiny-LB" target="_blank" rel="noopener">https://github.com/destiny-lb
 
-​		<i class="fab fa-zhihu"></i> 知乎： <a href="https://www.zhihu.com/people/61c72d1c473cc47a56944391bcbb8199" target="_blank" rel="noopener">https://www.zhihu.com/destiny-lb
+​		<i class="fab fa-zhihu"></i> 知乎： <a href="https://www.zhihu.com/people/destiny-90-47" target="_blank" rel="noopener">https://www.zhihu.com/destiny-lb
 
 ------
 
