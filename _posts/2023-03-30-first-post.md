@@ -11,3 +11,5 @@ pin: true
 Hello World!
 
 ![Hello World](/assets/img/posts/HelloWorld.jpg){: .w-50 .normal }
+
+{% include embed/bilibili.html aid='2834521' cid='4427591' %}
