@@ -8,7 +8,8 @@ math: true
 mermaid: true
 pin: true
 render_with_liquid: false
-image:
 ---
 
 Hello World!
+
+![Hello World](/assets/img/posts/HelloWorld.jpg)
