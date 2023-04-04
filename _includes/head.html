@@ -69,17 +69,6 @@
     <link rel="stylesheet" href="{{ site.data.assets[origin].webfonts | relative_url }}">
   {% endif %}
   
-  <!-- 百度统计 -->
-  <script>
-    var _hmt = _hmt || [];
-    (function() {
-      var hm = document.createElement("script");
-      hm.src = "https://hm.baidu.com/hm.js?8413ecb6fc3a9e922e91e8161479d05c";
-      var s = document.getElementsByTagName("script")[0]; 
-      s.parentNode.insertBefore(hm, s);
-    })();
-  </script>
-  
   <!-- GA -->
   {% if jekyll.environment == 'production' and site.google_analytics.id != empty and site.google_analytics.id %}
     <link rel="preconnect" href="https://www.google-analytics.com" crossorigin="use-credentials">
@@ -123,5 +112,16 @@
 
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
-  {% endunless %} 
+  {% endunless %}
+
+  <!-- 百度统计 -->
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?8413ecb6fc3a9e922e91e8161479d05c";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>
 </head>
