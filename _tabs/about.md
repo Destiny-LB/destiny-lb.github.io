@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-这是[**Destiny-LB**]({{ site.url }})的一个个人网站.
+这是[**Destiny-LB**]({{ site.url }})的个人网站.
 
 ------
 
