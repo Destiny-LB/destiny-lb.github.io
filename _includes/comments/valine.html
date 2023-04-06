@@ -1,0 +1,17 @@
+<!-- https://valine.js.org/ -->
+<head>
+    ..
+    <script src='//unpkg.com/valine/dist/Valine.min.js'></script>
+    ...
+</head>
+<body>
+    ...
+    <div id="vcomments"></div>
+    <script>
+        new Valine({
+            el: '#vcomments',
+            appId: '{{ site.comments.valine.appId }}',
+            appKey: '{{ site.comments.valine.appId }}'
+        })
+    </script>
+</body>
