@@ -5,11 +5,11 @@ icon: fas fa-info-circle
 order: 4
 ---
 
-This is a Personal Website for [**Destiny-LB**]({{ site.url }}).
+这是[**Destiny-LB**]({{ site.url }})的一个个人网站.
 
 ------
 
-For more information about me, please visit the following website:
+有关我的更多信息，请访问以下网站:
 
 ​		<i class="fab fa-bilibili"></i> 微博： <a href="https://weibo.com/n/Destiny-LB" target="_blank" rel="noopener">https://weibo.com/destiny-lb
 
@@ -23,4 +23,4 @@ For more information about me, please visit the following website:
 
 ------
 
-Thanks for your browsing!
+谢谢你的浏览!
