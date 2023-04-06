@@ -2,9 +2,8 @@
 title: First Post
 date: 2023-03-30 14:40:00 +0800
 categories: [Blog]
-tags: [test]
+tags: 
 comments: true
-pin: true
 img_path: /assets/img/posts
 
 ---
