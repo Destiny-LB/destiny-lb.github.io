@@ -11,7 +11,11 @@
         new Valine({
             el: '#vcomments',
             appId: '{{ site.comments.valine.appId }}',
-            appKey: '{{ site.comments.valine.appKey }}'
+            appKey: '{{ site.comments.valine.appKey }}',
+            placeholder: '评论...',
+            avatar: 'wavatar',
+            meta: ['nick','mail',' '],
+            visitor: true
         })
     </script>
 </body>
