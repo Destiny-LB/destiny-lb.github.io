@@ -10,7 +10,7 @@ baseurl: ""
 # The language of the webpage › http://www.lingoes.net/en/translator/langcode.htm
 # If it has the same name as one of the files in folder `_data/locales`, the layout language will also be changed,
 # otherwise, the layout language will use the default value of 'en'.
-lang: en
+lang: zh-CN
 
 # Change to your timezone › http://www.timezoneconverter.com/cgi-bin/findzone/findzone
 timezone: Asia/Shanghai
@@ -23,7 +23,7 @@ title: Destiny-LB # the main title
 tagline: 我见青山多妩媚，料青山见我应如是 # it will display as the sub-title
 
 description: >- # used by seo meta and the atom feed
-  A Personal Website.
+  Personal Website.
 
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: "https://destiny-lb.github.io"
