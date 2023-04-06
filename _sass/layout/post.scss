@@ -140,11 +140,15 @@ h1 + .post-meta {
         }
 
         &.fa-qq {
-          @include btn-sharing-color(rgb(0, 120, 220));
+          @include btn-sharing-color(rgb(15, 130, 220));
+        }
+
+        &.fa-weixin {
+          @include btn-sharing-color(rgb(15, 200, 15));
         }
 
         &.fa-weibo {
-          @include btn-sharing-color(rgb(229, 20, 43));
+          @include btn-sharing-color(rgb(230, 20, 40));
         }
       }
     } /* .share-icons */
