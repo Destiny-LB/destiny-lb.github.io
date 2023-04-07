@@ -4,7 +4,7 @@
 platforms:
   - type: QQ
     icon: "fab fa-qq"
-    link: "https://connect.qq.com/widget/shareqq/index.html?url=URL&title=TITLE"
+    link: ""
 
   - type: Weixin
     icon: "fab fa-weixin"
