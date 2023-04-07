@@ -11,10 +11,14 @@
 
     {% for share in site.data.share.platforms %}
       {% assign link = share.link | replace: 'TITLE', title | replace: 'URL', url %}
+      {% if link == "" %} 
+        <a> <i class="fa-fw {{ share.icon }}"></i> </a>
+      {% else %}
         <a href="{{ link }}" data-toggle="tooltip" data-placement="top"
           title="{{ share.type }}" target="_blank" rel="noopener" aria-label="{{ share.type }}">
           <i class="fa-fw {{ share.icon }}"></i>
         </a>
+      {% endif %}
     {% endfor %}
 
     <i id="copy-link" class="fa-fw fas fa-link small"
