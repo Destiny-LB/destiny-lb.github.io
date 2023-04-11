@@ -9,6 +9,6 @@ comments: true
 
 Hello World!
 
-![Hello World](posts/Hello World.jpg){: .w-50 .normal }
+![Hello World](/assets/img/posts/Hello World.jpg){: .w-50 .normal }
 
 <!-- {% include embed/bilibili.html id='BV1ds411m7Ns' %} -->
