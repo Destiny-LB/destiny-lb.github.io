@@ -15,7 +15,7 @@ order: 4
 
 ​		<i class="fab fa-bilibili"></i> Bilibili： <a href="https://b23.tv/8tJjr10" target="_blank" rel="noopener">https://space.bilibili.com/destiny-lb
 
-​		<i class="fab fa-tiktok"></i> 抖音： <a href="https://v.douyin.com/ABStMdk" target="_blank" rel="noopener">https://www.douyin.com/destiny-lb
+​		<i class="fab fa-tiktok"></i> 抖音： <a href="https://v.douyin.com/AvmNk7J" target="_blank" rel="noopener">https://www.douyin.com/destiny-lb
 
 ​		<i class="fab fa-github"></i> Github： <a href="https://github.com/Destiny-LB" target="_blank" rel="noopener">https://github.com/destiny-lb
 
