@@ -4,7 +4,7 @@ date: 2023-03-30 12:00:00 +0800
 categories: [博文]
 tags: 
 comments: true
-img_path: /assets/img/posts
+img_path: /img/博文
 
 ---
 
