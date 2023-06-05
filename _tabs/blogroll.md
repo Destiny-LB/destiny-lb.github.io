@@ -1,6 +1,6 @@
 ---
 layout: page 
-icon: fas fa-blogroll
+icon: fas fa-info-circle
 order: 4
 ---
 
