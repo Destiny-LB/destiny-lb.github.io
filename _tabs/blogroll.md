@@ -10,4 +10,4 @@ order: 4
 
 3. <a href="https://oniya.cn" target="_blank" rel="noopener">梦荟楼
 
-4. <a href="https://github.youngkbt.cn/" target="_blank" rel="noopener">Young Kbt blog
+4. <a href="https://notes.youngkbt.cn" target="_blank" rel="noopener">Young Kbt blog
