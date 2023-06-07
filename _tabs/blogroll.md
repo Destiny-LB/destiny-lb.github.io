@@ -1,6 +1,6 @@
 ---
 layout: page 
-icon: fas fa-info-circle
+icon: fas fa-link
 order: 4
 ---
 
