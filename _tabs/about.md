@@ -5,7 +5,7 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-这是[**Destiny-LB**]({{ site.url }})的个人网站，开心快乐每一天！
+欢迎来到[**Destiny-LB**]({{ site.url }})的个人网站，开心快乐每一天！！！
 
 ------
 
