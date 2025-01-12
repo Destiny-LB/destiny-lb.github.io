@@ -5,13 +5,13 @@
   icon: "fab fa-weibo"
   url: https://weibo.com/n/Destiny-LB
 
-- type: bilibili
-  icon: "fab fa-bilibili"
-  url: https://b23.tv/8tJjr10
-
 - type: tiktok
   icon: "fab fa-tiktok"
   url: https://v.douyin.com/AvmNk7J
+
+- type: xiaohongshu
+  icon: "fab fa-redhat"
+  url: https://www.xiaohongshu.com/user/profile/6306d9d900000000120010e0
 
 - type: github
   icon: "fab fa-github"
