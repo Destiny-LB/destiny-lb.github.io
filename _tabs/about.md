@@ -4,48 +4,80 @@ icon: fas fa-info-circle
 order: 5
 ---
 
-<div style="text-align: center; margin-bottom: 20px;">
-  <h1 style="text-align: center; font-size: 1.5rem;"> 欢迎来到Destiny-LB的个人网站！</h1>
+<style>
+ .social-links {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+ .social-icon {
+        font-size: 1.5rem; /* 增大图标字体大小 */
+        margin-right: 5px;
+    }
+ .social-link {
+        font-size: 1.2rem; /* 增大链接文字的字体大小 */
+        color: #007bff; /* 链接颜色，可自行调整 */
+        text-decoration: none;
+        transition: color 0.3s ease; /* 鼠标悬停过渡效果 */
+    }
+ .social-link:hover {
+        color: #0056b3; /* 鼠标悬停时的颜色变化 */
+    }
+</style>
+
+<div id="app">
+    <h1 style="text-align: center; font-size: 1.5rem;">欢迎来到Destiny-LB的个人网站！</h1>
+    <hr>
+    <h2 style="text-align: center; font-size: 1.2rem;">有关我的更多信息，请访问以下网站:</h2>
+    <div class="social-links" id="social-links-container"></div>
+    <hr>
+    <p style="text-align: center; font-size: 1.1rem;">谢谢您的浏览！</p>
 </div>
 
-<hr style="border-top: 2px solid #f0f0f0; margin: 20px 0;">
+<script>
+    const socialPlatforms = [
+        { iconClass: "fab fa-weibo", href: "https://weibo.com/n/Destiny-LB", url: "https://weibo.com/destiny-lb" },
+        { iconClass: "fab fa-tiktok", href: "https://v.douyin.com/AvmNk7J", url: "https://www.douyin.com/destiny-lb" },
+        { iconClass: "fab fa-redhat", href: "https://www.xiaohongshu.com/user/profile/6306d9d900000000120010e0", url: "https://www.xiaohongshu.com/destiny-lb" },
+        { iconClass: "fab fa-github", href: "https://github.com/Destiny-LB", url: "https://github.com/destiny-lb" }
+    ];
 
-<h2 style="text-align: center; font-size: 1.2rem;"> 有关我的更多信息，请访问以下网站: </h2>
+    const socialLinksContainer = document.getElementById('social-links-container');
 
-<div style="display: flex; flex-direction: column; align-items: center; gap: 30px; margin-top: 20px;">
+    socialPlatforms.forEach((platform) => {
+        const linkElement = document.createElement('a');
+        linkElement.href = platform.href;
+        linkElement.target = "_blank";
+        linkElement.rel = "noopener";
+        linkElement.className = "social-link";
+        linkElement.textContent = platform.url;
 
-  <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
-    <a href="https://weibo.com/n/Destiny-LB" target="_blank" rel="noopener" style="text-decoration: none;">
-      <i class="fab fa-weibo" style="font-size: 3rem;"></i>
-    </a>
-    <a href="https://weibo.com/n/Destiny-LB" target="_blank" rel="noopener" style="font-size: 1.2rem;">https://weibo.com/destiny-lb</a>
-  </div>
+        const iconElement = document.createElement('i');
+        iconElement.className = `fab ${platform.iconClass} social-icon`;
 
-  <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
-    <a href="https://v.douyin.com/AvmNk7J" target="_blank" rel="noopener" style="text-decoration: none;">
-      <i class="fab fa-tiktok" style="font-size: 3rem;"></i>
-    </a>
-    <a href="https://v.douyin.com/AvmNk7J" target="_blank" rel="noopener" style="font-size: 1.2rem;">https://www.douyin.com/destiny-lb</a>
-  </div>
+        const listItem = document.createElement('div');
+        listItem.appendChild(iconElement);
+        listItem.appendChild(linkElement);
 
-  <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
-    <a href="https://www.xiaohongshu.com/user/profile/6306d9d900000000120010e0" target="_blank" rel="noopener" style="text-decoration: none;">
-      <i class="fab fa-redhat" style="font-size: 3rem;"></i>
-    </a>
-    <a href="https://www.xiaohongshu.com/user/profile/6306d9d900000000120010e0" target="_blank" rel="noopener" style="font-size: 1.2rem;">https://www.xiaohongshu.com/destiny-lb</a>
-  </div>
+        socialLinksContainer.appendChild(listItem);
+    });
 
-  <div style="display: inline-flex; align-items: center; justify-content: center; gap: 10px;">
-    <a href="https://github.com/Destiny-LB" target="_blank" rel="noopener" style="text-decoration: none;">
-      <i class="fab fa-github" style="font-size: 3rem;"></i>
-    </a>
-    <a href="https://github.com/Destiny-LB" target="_blank" rel="noopener" style="font-size: 1.2rem;">https://github.com/destiny-lb</a>
-  </div>
+    function addNewSocialLink(iconClass, href, url) {
+        const newLinkElement = document.createElement('a');
+        newLinkElement.href = href;
+        newLinkElement.target = "_blank";
+        newLinkElement.rel = "noopener";
+        newLinkElement.className = "social-link";
+        newLinkElement.textContent = url;
 
-</div>
+        const newIconElement = document.createElement('i');
+        newIconElement.className = `fab ${iconClass} social-icon`;
 
-<hr style="border-top: 2px solid #f0f0f0; margin: 20px 0;">
+        const newListItem = document.createElement('div');
+        newListItem.appendChild(newIconElement);
+        newListItem.appendChild(newLinkElement);
 
-<div style="text-align: center; font-size: 1.1rem; color: #777;">
-  <p>谢谢您的浏览！</p>
-</div>
+        socialLinksContainer.appendChild(newListItem);
+    }
+</script>
