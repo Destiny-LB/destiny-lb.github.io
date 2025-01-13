@@ -8,7 +8,7 @@ order: 4
   <h1 style="text-align: center; font-size: 1.5rem;"> 欢迎成为我的网上邻居 (>_<) </h1>
 </div>
 
-<hr style="border-top: 2px solid #f0f0f0; margin: 20px 0;">
+<hr>
 
 <style>
     /* 用于整体友链区域的样式，设置一些基本的布局样式，修改此处让其整体偏左 */
