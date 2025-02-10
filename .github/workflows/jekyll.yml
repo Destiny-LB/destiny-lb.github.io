@@ -59,7 +59,6 @@ jobs:
         # Automatically uploads an artifact from the './_site' directory by default
         uses: actions/upload-artifact@v4
         with:
-          name: my-jekyll-artifact
           path: ./_site
   # Deployment job
   deploy:
